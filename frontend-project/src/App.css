@@ -1,0 +1,10 @@
+.dashboard-container {
+    background-image: linear-gradient(-40deg, #a8b2c5, #8396b5, #607da5, #3d6495);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    height: 100vh; /* Optionally set height to fill viewport */
+  }
+  

@@ -1,0 +1,23 @@
+import javax.swing.*;
+
+public class BookingSystemGui extends JFrame {
+    private JTextField userIdField, bookingTypeIdField, venueIdField, dateField, timeField, seatNoField, amountField,
+            bookingIdField, paymentDateField, paymentTimeField, paymentTypeIdField, paymentAmountField, paymentStatusField;
+
+    public BookingSystemGui() {
+        setTitle("Booking System");
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+        setSize(600, 400);
+        setLocationRelativeTo(null);
+
+        JPanel panel = new JPanel();
+        panel.setLayout(null);
+
+        // Labels, buttons, and fields setup similar to before...
+
+        add(panel);
+        setVisible(true);
+    }
+
+    // Methods for GUI functionalities
+}
